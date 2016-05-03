@@ -30,6 +30,7 @@
         {
             this.btnmostrar = new System.Windows.Forms.Button();
             this.txtHello = new System.Windows.Forms.TextBox();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // btnmostrar
@@ -53,11 +54,22 @@
             this.txtHello.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtHello.Visible = false;
             // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(52, 182);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(80, 17);
+            this.checkBox1.TabIndex = 2;
+            this.checkBox1.Text = "checkBox1";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 260);
+            this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.txtHello);
             this.Controls.Add(this.btnmostrar);
             this.Name = "Form1";
@@ -71,6 +83,7 @@
 
         private System.Windows.Forms.Button btnmostrar;
         private System.Windows.Forms.TextBox txtHello;
+        private System.Windows.Forms.CheckBox checkBox1;
     }
 }
 
